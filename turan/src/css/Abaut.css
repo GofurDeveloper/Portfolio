@@ -1,0 +1,290 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+.conteyner {
+  background-color: rgb(175, 89, 89);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service {
+  width: 663px;
+  height: 129px;
+  margin: auto;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 122.68%;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.about__us {
+  height: 70vh;
+  /* background-color: red; */
+ display: grid;
+ /* grid-template-columns: repeat(2, 1fr); */
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+.about__left {
+ 
+  /* background-color: rgb(5, 5, 17); */
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+.medium{
+  width: 45vw;
+  height: 40vh;
+  /* background-color: green; */
+ 
+}
+.medium > h1{
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.medium > p {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 24px;
+
+color: #000000;
+}
+.about__right {
+  /* background-color: rgb(92, 92, 190); */
+  display: grid;
+  align-items: center; 
+  justify-items: center;
+}
+.medium__right{
+  width: 100%;
+  height: 69vh;
+  /* background-color: #fffdfd; */
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 50px;
+}
+.img__conteyner , .vector{
+  position: relative;
+}
+  .img__conteyner{
+width: 500px;
+height: 330px;
+top: -430px;
+left: 12px;
+
+}
+.vector{
+  width: 500px;
+  height: 500px;
+  color: red;
+ 
+}
+/* ======================================> Logistic start <========================================= */
+.logistic__conteyner {
+  margin-top: 20px;
+}
+.www{
+  width: 110px;                   
+}
+.logistic__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 49px;
+  text-align: center;
+  color: #0f0d0d;
+}
+.logistic {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 1299px;
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)); */
+  background-image: url('https://wallpapertag.com/wallpaper/full/e/f/a/996492-beautiful-red-neon-wallpaper-3440x1440.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  margin-top: 60px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 6px;
+}
+.card1 {
+  width: 150px;
+  height: 150px;
+  left: 250px;
+  top: 1461px;
+  /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  background-color: #fffdfd; */
+  border-radius: 10px;
+  margin: 15vh 0 15vh 0;
+}
+.card1 >img{
+  width: 180px;
+  height: 180px;
+
+}
+/* .card2 {
+  width: 150px;
+  height: 150px;
+  left: 569px;
+  top: 1496px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  background-color: #fffdfd;
+  border-radius: 10px;
+}
+.card3 {
+  width: 150px;
+  height: 150px;
+  left: 882px;
+  top: 1491px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  background-color: #fffdfd;
+  border-radius: 10px;
+}
+
+.card4 {
+  width: 150px;
+  height: 150px;
+  left: 1190px;
+  top: 1491px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  background-color: #fffdfd;
+  border-radius: 10px;
+} */
+/* ======================================> Logistic end <=========================================== */
+
+/* ======================================> Our Team start <======================================== */
+.team {
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.team__text {
+  width: 204px;
+  height: 49px;
+  left: 698px;
+  top: 1968px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: right;
+  color: #000000;
+}
+.team__card__conteyner {
+    width: 100%;
+  height: 100%;
+  background-color: rgb(190, 190, 190);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+ grid-gap: 16px;
+ grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.team__card {
+  width: 300px;
+  height: 250px;
+  background: #fffdfd;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin: 10vh 0 10vh 0;
+
+}
+
+.card__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.card__menejer {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #a7a7a7;
+}
+.card {
+  padding-top: 35px;
+}
+/* ======================================> Our Team end <======================================== */
+/* ======================================> Our Sevices start <======================================== */
+
+.inception__sevices {
+  width: 100%;
+  height: 100%;
+  background-color: beige;
+  text-align: center;
+}
+.sevices {
+  position: relative;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.sevices__conteyner {
+  /* position: absolute; */
+  /* width: 100%; */
+  /* height: 100%; */
+  display: grid;
+  /* grid-template-columns: repeat(3, minmax(300px, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  
+
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+}
+.sevices__card {
+  width: 300px; 
+  height: 250px;
+  text-align: center;
+}
+/* ======================================> Our Sevices end <======================================== */
+
+/* ======================================> Responsive start <====================================== */
+
+/* @media(max-width: 969px){
+  .team__card{
+    flex: 0 0 calc(50% - 20px);
+    max-width: calc(50% - 20px );
+  }
+}
+@media(max-width:600px){
+  .team__card{
+    
+
+  }
+} */

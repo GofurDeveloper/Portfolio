@@ -1,0 +1,35 @@
+@media (min-width: 767px) and (max-width: 1300px) {
+ 
+}
+
+@media (max-width: 767px) {
+    .conteyner{
+        width: 100%;
+    }
+    .medium {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+    .medium >h1{
+        align-items: center;
+
+    }
+    .medium__right{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .img__conteyner , .vector{
+        width: 100%;
+       
+    }
+    .logistic__conteyner{
+        margin-top: 80vh;
+    }
+    .logistic__text{
+        font-size: 14px;
+    }
+    .logistic{
+        width: 100%;
+    }
+}
