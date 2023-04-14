@@ -1,14 +1,25 @@
-import React from 'react'
+import React , { useState } from  'react'
 import { Link, Outlet } from 'react-router-dom'
 import '../css/Header.css'
 
 
 function Layout() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+    console.log("aa")
+  };
+
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <>
       <div className='header'>
         <div className='header__logo'>
-        <img
+          <img
             className='header__logoImg'
             src='../photo_2023-01-11_08-43-11.jpg'
             alt='404'
@@ -26,9 +37,24 @@ function Layout() {
           <Link t0='/Contact'> Contact </Link>
         </div>
         <div className='header__right'>
-          <Link>Become a deliver</Link>
+          <Link className='action_btn'>Become a deliver</Link>
         </div>
+        <div className='BTN' onClick={toggleMenu}></div>
 
+        <div className={` ${isOpen ? 'dropdown_menu' : 'show_open'}  `}> 
+          <Link to='/' onClick={closeMenu}>Abaut us</Link>
+
+          <Link to='/Features'onClick={closeMenu}> Features</Link>
+
+          <Link to='/Team'onClick={closeMenu}> Team</Link>
+
+          <Link to='/Services'onClick={closeMenu}> Services</Link>
+
+          <Link t0='/Contact'onClick={closeMenu}> Contact </Link>
+          <div className='header__right'>
+          <Link className='action_btn'>Become a deliver</Link>
+        </div>
+        </div>
       </div>
 
 

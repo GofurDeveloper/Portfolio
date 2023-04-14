@@ -1,5 +1,23 @@
-@media (min-width: 767px) and (max-width: 1300px) {
- 
+@media (min-width: 992px) and (max-width: 1300px) {
+    .show_open {
+        display: none;
+    }
+    .dropdown_menu{
+        display: none;
+    }
+}
+
+@media(max-width: 992px){
+    .header__links ,.header__right{
+        display: none;
+    }
+    .BTN{
+        display: block;
+    }
+   
+    .show_open {
+        display: none;
+    }
 }
 
 @media (max-width: 767px) {
