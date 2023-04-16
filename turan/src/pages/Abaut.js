@@ -30,7 +30,7 @@ function Abaut() {
         <div className='about__right'>
           <div className='medium__right'>
               
-                 <img className='vector ' src="https://sun9-78.userapi.com/impf/c638922/v638922158/3b397/P_dJWdkJhig.jpg?size=935x1080&quality=96&sign=7d18ecce8a8173e2ce16dbadcfbd3bc8&c_uniq_tag=7z_3gUuZt0xCeOIB4_PKzPxt4IaTKi376hWC665ijXk&type=album" alt="" />
+                 <img className='vector ' src="https://sun6-20.userapi.com/s/v1/if1/tv26B083qCoa0MWS6r4pydM11rFzUh1fVxWQ5L-2uG_njPF2cdUpAeFkCEdMwdGwkztxkqhQ.jpg?size=1870x2160&quality=96&crop=0,0,1870,2160&ava=1" alt="" />
                  <img className='img__conteyner' src="https://i.pinimg.com/originals/94/da/19/94da19fd67be57d1e187b4c317ec5c87.png" alt="404" />
           </div>
         </div>

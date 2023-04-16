@@ -1,4 +1,4 @@
-@media (min-width: 992px) and (max-width: 1300px) {
+@media (min-width: 992px) and (max-width: 1500px) {
     .show_open {
         display: none;
     }
@@ -6,14 +6,20 @@
         display: none;
     }
 }
-
-@media(max-width: 992px){
+@media(max-width:1009px){
     .header__links ,.header__right{
         display: none;
     }
     .BTN{
         display: block;
     }
+}
+
+@media(max-width: 992px){
+    /* .header__links ,.header__right{
+        display: none;
+    } */
+   
    
     .show_open {
         display: none;

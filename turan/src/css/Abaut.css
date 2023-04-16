@@ -2,9 +2,15 @@
   padding: 0;
   margin: 0;
   /* box-sizing: border-box; */
+  
 }
 .conteyner {
-  background-color: rgb(175, 89, 89);
+  background-image: url("https://kiremitim.com/template/img/otherservices/tasimacilik_header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 4;
+  top: -80px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -20,6 +26,7 @@
   line-height: 122.68%;
   text-align: center;
   letter-spacing: 0.06em;
+ color: #fffdfd;
 }
 
 .about__us {
