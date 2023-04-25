@@ -1,18 +1,71 @@
 .footer__conteyner {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.359);
   background-image: url("https://d1kvkzjpuym02z.cloudfront.net/61ad2f788ccb5104b55dc041.jpg?Expires=2111782555&Signature=WgWlHHHY0Yge6Ex~47cu8G3MHfrmTFSx~4OlDZlCCiHVvKoRxwrRW-7cHw3GgSBHStNMHRr1D6AI1Xf5wcK4atCxCHNrmAOGVTMCfTkM6wB-ginZJt~HWi6usk79qVto7gbP0-Tccx~NFjK2RJe6AYDrz6NZZOPhUHPliq373kw_&Key-Pair-Id=APKAJXYWFXCDTRLR3EFA");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-color: rgba(0, 0, 0, 0.441); */
-  opacity: 0.5;
-  /* transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275); */
 }
-.contact {
+.footer__title {
   color: white;
   text-align: center;
   font-size: 40px;
   padding-top: 20px;
 }
+.contact {
+  width: 50%;
+  height: 60vh;
 
+  display: inline-grid;
+
+  align-items: center;
+  justify-content: center;
+}
+.phone {
+  width: 15vw;
+  height: 12vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 15px;
+}
+.phone_icon {
+  width: 45.69px;
+  height: 45.8px;
+}
+.phone_p {
+  height: 17.57px;
+  color: #2d7fd7;
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 21px;
+}
+.envelope_icon {
+  width: 45.69px;
+  height: 45.8px;
+}
+
+.envelope_p {
+  height: 17.57px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  left: 200px;
+}
+.socialNetworks {
+  width: 30vw;
+  height: 15vh;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+}
+.instagram {
+  width: 50px;
+  height: 50px;
+}
+.instagram :hover {
+  color: blue;
+}

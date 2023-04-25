@@ -34,15 +34,22 @@
   /* background-color: rgb(100, 100, 100); */
 }
 .header__links > a {
+  
   text-decoration: none;
   text-transform: capitalize;
-  color: rgb(255, 255, 255);
+  color: #ffff;
   font-weight: 500;
   font-size: 21px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .header__links > a:hover {
-  color: #2d7fd7;
+  color: #81a5f4;
+  /* border: 1px solid black ;
+  padding: 1.5px;
+  border-radius: 10px;
+
+  font-size: 20px; */
+  /* box-shadow: 5px #2d7fd7; */
 }
 .header__right {
   /* background-color: #2d7fd7; */
