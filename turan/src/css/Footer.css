@@ -1,11 +1,12 @@
 .footer__conteyner {
   width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.359);
-  background-image: url("https://d1kvkzjpuym02z.cloudfront.net/61ad2f788ccb5104b55dc041.jpg?Expires=2111782555&Signature=WgWlHHHY0Yge6Ex~47cu8G3MHfrmTFSx~4OlDZlCCiHVvKoRxwrRW-7cHw3GgSBHStNMHRr1D6AI1Xf5wcK4atCxCHNrmAOGVTMCfTkM6wB-ginZJt~HWi6usk79qVto7gbP0-Tccx~NFjK2RJe6AYDrz6NZZOPhUHPliq373kw_&Key-Pair-Id=APKAJXYWFXCDTRLR3EFA");
+  height: 70vh;
+  background-color: rgb(0, 0, 0);
+  /* background-image: url("https://d1kvkzjpuym02z.cloudfront.net/61ad2f788ccb5104b55dc041.jpg?Expires=2111782555&Signature=WgWlHHHY0Yge6Ex~47cu8G3MHfrmTFSx~4OlDZlCCiHVvKoRxwrRW-7cHw3GgSBHStNMHRr1D6AI1Xf5wcK4atCxCHNrmAOGVTMCfTkM6wB-ginZJt~HWi6usk79qVto7gbP0-Tccx~NFjK2RJe6AYDrz6NZZOPhUHPliq373kw_&Key-Pair-Id=APKAJXYWFXCDTRLR3EFA"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .footer__title {
   color: white;
@@ -15,7 +16,7 @@
 }
 .contact {
   width: 50%;
-  height: 60vh;
+  height: 45vh;
 
   display: inline-grid;
 
@@ -57,7 +58,7 @@
 }
 .socialNetworks {
   width: 30vw;
-  height: 15vh;
+  /* height: 15vh; */
   display: grid;
   column-gap: 10px;
   grid-template-columns: auto auto auto auto;
@@ -69,3 +70,80 @@
 .instagram :hover {
   color: blue;
 }
+/* ==============> Get information css <============= */
+.inpuut {
+ 
+
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 55%;
+  height: 40vh;
+}
+#name {
+  
+  background-color: #ffffff00;
+  box-sizing: border-box;
+  width: 300px;
+  height: 50.4px;
+  border: 1px solid #ecf0f1;
+  border-radius: 5px;
+}
+#name::placeholder{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 20px;
+  color: #ecf0f1;
+}
+#email {
+  background-color: #ffffff00;
+  width: 300px;
+  height: 50.4px;
+  margin: 20px;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+#email::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 20px;
+  color: #ecf0f1;
+}
+#company_name {
+  background-color: #ffffff00;
+  box-sizing: border-box;
+  width: 620px;
+  height: 50px;
+  border: 2px solid #ecf0f1;
+  border-radius: 5px;
+}
+#company_name::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 20px;
+  color: #ecf0f1;
+}
+#massage {
+  background-color: #ffffff00;
+  box-sizing: border-box;
+  width: 620px;
+  height: 111px;
+  border: 2px solid #ecf0f1;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 20px;
+  color: #ecf0f1;
+  resize: none;
+}
+
