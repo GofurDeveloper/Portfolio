@@ -42,7 +42,7 @@ function Footer() {
         </div>
         {/* ========================> Get information <================= */}
         <div className="inpuut">
-    <div>
+    
       
     {/* <label for="html">HTML</label>
     <label className="name" htmlFor="name">Full name</label> */}
@@ -51,7 +51,7 @@ function Footer() {
       <input type="text" id="company_name" name="company_name" placeholder="Copany Name" />
       {/* <input type="text" id="massage" name="massage" placeholder="Type your massage here..." /> */}
       <textarea id="massage">Type your massage here...</textarea>
-    </div>
+         <button className="Btn">SEND</button>
         </div>
       </div>
     </>

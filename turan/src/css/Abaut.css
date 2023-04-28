@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   /* box-sizing: border-box; */
-  
 }
 .conteyner {
   background-image: url("https://kiremitim.com/template/img/otherservices/tasimacilik_header.jpg");
@@ -26,58 +25,55 @@
   line-height: 122.68%;
   text-align: center;
   letter-spacing: 0.06em;
- color: #fffdfd;
+  color: #fffdfd;
 }
 
 .about__us {
   height: 70vh;
   /* background-color: red; */
- display: grid;
- /* grid-template-columns: repeat(2, 1fr); */
- grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .about__left {
- 
   /* background-color: rgb(5, 5, 17); */
   display: grid;
   align-items: center;
   justify-items: center;
 }
-.medium{
+.medium {
   width: 45vw;
   height: 40vh;
   /* background-color: green; */
- 
 }
-.medium > h1{
+.medium > h1 {
   text-transform: uppercase;
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 49px;
-display: flex;
-align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
 
-color: #000000;
+  color: #000000;
 }
 .medium > p {
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 24px;
 
-color: #000000;
+  color: #000000;
 }
 .about__right {
   /* background-color: rgb(92, 92, 190); */
   display: grid;
-  align-items: center; 
+  align-items: center;
   justify-items: center;
 }
-.medium__right{
+.medium__right {
   width: 100%;
   height: 69vh;
   /* background-color: #fffdfd; */
@@ -86,28 +82,27 @@ color: #000000;
   justify-items: center;
   margin-bottom: 50px;
 }
-.img__conteyner , .vector{
+.img__conteyner,
+.vector {
   position: relative;
 }
-  .img__conteyner{
-width: 500px;
-height: 330px;
-top: -430px;
-left: 12px;
-
+.img__conteyner {
+  width: 500px;
+  height: 330px;
+  top: -430px;
+  left: 12px;
 }
-.vector{
+.vector {
   width: 500px;
   height: 500px;
   color: red;
- 
 }
 /* ======================================> Logistic start <========================================= */
 .logistic__conteyner {
   margin-top: 20px;
 }
-.www{
-  width: 110px;                   
+.www {
+  width: 110px;
 }
 .logistic__text {
   font-family: "Montserrat";
@@ -124,11 +119,10 @@ left: 12px;
   left: 0px;
   top: 1299px;
   /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)); */
-  background-image: url('https://wallpapertag.com/wallpaper/full/e/f/a/996492-beautiful-red-neon-wallpaper-3440x1440.jpg');
+  background-image: url("https://wallpapertag.com/wallpaper/full/e/f/a/996492-beautiful-red-neon-wallpaper-3440x1440.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 
   margin-top: 60px;
   display: grid;
@@ -147,10 +141,9 @@ left: 12px;
   border-radius: 10px;
   margin: 15vh 0 15vh 0;
 }
-.card1 >img{
+.card1 > img {
   width: 180px;
   height: 180px;
-
 }
 /* .card2 {
   width: 150px;
@@ -204,14 +197,14 @@ left: 12px;
   color: #000000;
 }
 .team__card__conteyner {
-    width: 100%;
+  width: 100%;
   height: 100%;
-  background-color: rgb(190, 190, 190);
+  /* background-color: rgb(190, 190, 190); */
   display: grid;
   align-items: center;
   justify-items: center;
- grid-gap: 16px;
- grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 .team__card {
   width: 300px;
@@ -220,7 +213,6 @@ left: 12px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   margin: 10vh 0 10vh 0;
-
 }
 
 .card__text {
@@ -251,47 +243,25 @@ left: 12px;
 .inception__sevices {
   width: 100%;
   height: 100%;
-  background-color: beige;
+  /* background-color: beige; */
   text-align: center;
 }
-.sevices {
+/* .sevices {
   position: relative;
 
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-}
+} */
 .sevices__conteyner {
-  /* position: absolute; */
-  /* width: 100%; */
-  /* height: 100%; */
   display: grid;
-  /* grid-template-columns: repeat(3, minmax(300px, 1fr)); */
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  
-
   align-items: center;
   justify-items: center;
   gap: 20px;
 }
 .sevices__card {
-  width: 300px; 
+  width: 300px;
   height: 250px;
   text-align: center;
 }
 /* ======================================> Our Sevices end <======================================== */
 
 /* ======================================> Responsive start <====================================== */
-
-/* @media(max-width: 969px){
-  .team__card{
-    flex: 0 0 calc(50% - 20px);
-    max-width: calc(50% - 20px );
-  }
-}
-@media(max-width:600px){
-  .team__card{
-    
-
-  }
-} */

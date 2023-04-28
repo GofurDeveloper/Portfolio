@@ -16,11 +16,6 @@
 }
 
 @media(max-width: 992px){
-    /* .header__links ,.header__right{
-        display: none;
-    } */
-   
-   
     .show_open {
         display: none;
     }
@@ -29,6 +24,7 @@
 @media (max-width: 767px) {
     .conteyner{
         width: 100%;
+        justify-content: flex-end;
     }
     .medium {
         width: 100%;
@@ -56,4 +52,35 @@
     .logistic{
         width: 100%;
     }
+    /* ===============> Footer <================ */
+    .footer__conteyner{
+        width: 113vw;
+        height: 120vh;
+      }
+    .contact{
+        width: 65%;
+        height: 55vh;
+    }
+   
+    .inpuut{
+        width: 95%;
+        top: 400px;
+    }
+    .envelope_p{
+        padding-bottom: 5px;
+    }
+    #company_name , #email, #name, #massage{
+        width: 90%;
+        margin: 10px 10px;
+        padding: 10px;
+    }
+    .Btn{
+        width: 95%;
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        padding: 0.7rem;
+        margin-left: 0;
+    }
+    
 }
