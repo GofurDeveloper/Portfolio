@@ -118,8 +118,9 @@
   height: 100%;
   left: 0px;
   top: 1299px;
+  background: linear-gradient(35deg, #ccffff, #ffcccc);
   /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)); */
-  background-image: url("https://wallpapertag.com/wallpaper/full/e/f/a/996492-beautiful-red-neon-wallpaper-3440x1440.jpg");
+   /* background-image: url("https://wallpapertag.com/wallpaper/full/e/f/a/996492-beautiful-red-neon-wallpaper-3440x1440.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

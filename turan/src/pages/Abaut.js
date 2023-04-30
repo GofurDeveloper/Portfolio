@@ -8,6 +8,10 @@ import { BsPersonLinesFill } from "react-icons/bs";
 import { GiOpenBook } from "react-icons/gi";
 import { BsShieldFillCheck, BsFileEarmarkMedicalFill } from "react-icons/bs";
 import { FaSearchDollar } from "react-icons/fa";
+import { IoManOutline } from "react-icons/io5";
+import { TbTruckDelivery } from "react-icons/tb";
+import { BsBoxSeam } from "react-icons/bs";
+import { HiOutlineBadgeCheck } from "react-icons/hi";
 import Footer from './Footer';
 
 function Abaut() {
@@ -40,22 +44,26 @@ function Abaut() {
         <div className='logistic__text'> <h1>Why Furious Logistic</h1></div>
         <div className='logistic'>
           <div className="card1">
-            <img src="https://pbs.twimg.com/media/EiikqDeX0AMVyZR?format=png&name=240x240" alt="404" />
+          <TbTruckDelivery color='blue' size='10rem'  />
+            {/* <img src="https://pbs.twimg.com/media/EiikqDeX0AMVyZR?format=png&name=240x240" alt="404" /> */}
               <h2>Quick service</h2>
               <p>We provide our customers  with the fastes service</p>
           </div>
           <div className="card1">
-                <img src="https://abform.uz/wp-content/uploads/2021/10/safe-delivery.png" alt="404" />  
+            <BsBoxSeam  color='blue' size='10rem' />
+                {/* <img src="https://abform.uz/wp-content/uploads/2021/10/safe-delivery.png" alt="404" />   */}
                 <h2>High pitching</h2>
               <p>We provide our customers  with the fastes service</p>
           </div>
           <div className="card1">
-                <img src="https://bireysel.turktelekom.com.tr/mobil/web/kampanyalar/PublishingImages/saglikli-ysam-taylan.png" alt="404" />
+          <IoManOutline color='blue' size='10rem' />
+                {/* <img src="https://bireysel.turktelekom.com.tr/mobil/web/kampanyalar/PublishingImages/saglikli-ysam-taylan.png" alt="404" /> */}
                 <h2>Humantiy</h2>     
                 <p>We with our team preserve our humanity</p>
           </div>
           <div className="card1">
-                     <img src="https://joomla-secrets.ru/images/Logo/icon-_category-icon-our-values.png" alt="404" />
+            <HiOutlineBadgeCheck color='blue' size='10rem' />
+                     {/* <img src="https://joomla-secrets.ru/images/Logo/icon-_category-icon-our-values.png" alt="404" /> */}
                      <h2>Qualifications</h2>
                      <p>Each of our employees is highly qualified</p>
           </div>
