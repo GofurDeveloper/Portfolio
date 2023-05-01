@@ -80,12 +80,14 @@
 .BTN {
   width: 30px;
   height: 30px;
-  background-color: red;
+  /* background-color: red; */
   display: none;
 }
 /* Dropdown_menu */
 
 .dropdown_menu {
+  transition: 2s;
+
   /* display: none;   */
   display: block;
   position: absolute;
@@ -102,6 +104,7 @@
 }
 .dropdown_menu.show_open {
   display: none;
+  
   /* transform: translateX(0px); */
 }
 

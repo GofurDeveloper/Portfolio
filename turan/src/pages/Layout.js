@@ -1,5 +1,8 @@
 import React , { useState } from  'react'
 import { Link, Outlet } from 'react-router-dom'
+import { GiHamburgerMenu } from "react-icons/gi";
+import { CgClose } from "react-icons/cg";
+
 import '../css/Header.css'
 
 
@@ -7,6 +10,7 @@ function Layout() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
+   
     setIsOpen(!isOpen);
     console.log("aa")
   };
@@ -39,9 +43,9 @@ function Layout() {
         <div className='header__right'>
           <Link className='action_btn'>Become a deliver</Link>
         </div>
-        <div className='BTN' onClick={toggleMenu}></div>
+        <div  className='BTN' onClick={toggleMenu}> {isOpen ? <CgClose size='2.3rem' /> : <GiHamburgerMenu size='2.3rem' />}</div>
 
-        <div className={` ${isOpen ? 'dropdown_menu' : 'show_open'}  `}> 
+        <div className={` ${isOpen ? 'dropdown_menu' : 'show_open'}  ` }> 
           <Link to='/' onClick={closeMenu}>Abaut us</Link>
 
           <Link to='/Features'onClick={closeMenu}> Features</Link>
