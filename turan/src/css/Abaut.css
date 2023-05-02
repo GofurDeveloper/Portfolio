@@ -4,6 +4,7 @@
   /* box-sizing: border-box; */
 }
 .conteyner {
+  background-color: rgba(0, 0, 0, 0.548);
   background-image: url("https://kiremitim.com/template/img/otherservices/tasimacilik_header.jpg");
   background-repeat: no-repeat;
   background-position: center;

@@ -1,0 +1,50 @@
+.nopage {
+  background-image: url("https://kiremitim.com/template/img/otherservices/tasimacilik_header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 4;
+  margin-top: -75px;
+  height: 100vh;
+}
+.noPage_text {
+  height: 100vh;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+}
+.error {
+  width: 694px;
+  height: 158px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 144px;
+  line-height: 176px;
+  letter-spacing: 0.25em;
+
+  color: #ffffff;
+
+  text-shadow: 0px 0px 10px #2d7fd7;
+}
+.not_found {
+  position: absolute;
+  width: 844px;
+  height: 119px;
+  left: 378px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.25em;
+
+  color: #ffffff;
+
+  text-shadow: 0px 0px 10px #2d7fd7;
+}
