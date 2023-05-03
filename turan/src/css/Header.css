@@ -16,12 +16,17 @@
   padding-top: 15px;
 }
 .header__logo {
-  background-color: blue;
+  width: 40px;
+height: 40px;
 }
 .header__logoImg {
   object-fit: contain;
   flex: 1;
-  width: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid 2px gray;
+  width: 100px;
+  height: 80px;
   margin-right: 100px;
 }
 .header__links {
@@ -37,7 +42,7 @@
   transition: 0.3s;
 }
 .header__links > a:hover {
-  color: #81a5f4;
+  color: #004df2;
 }
 .header__right {
   box-sizing: border-box;

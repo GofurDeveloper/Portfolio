@@ -17,9 +17,13 @@ import Footer from './Footer';
 function Abaut() {
   return (
     <>
+     
       <div className='conteyner'>
+      <div className='conteyner2'>
+
         <div >
           <h1 className='service' >Best transportation <br /> service</h1>
+        </div>
         </div>
       </div>
       {/* ===================================================> Logistic start <======================================================= */}

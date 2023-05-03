@@ -23,7 +23,7 @@ function Layout() {
         <div className="header__logo">
           <img
             className="header__logoImg"
-            src="../photo_2023-01-11_08-43-11.jpg"
+            src="https://avatars.mds.yandex.net/i?id=d8a6af7a5d4b480ab096765f27b52e19b0f52658-9220416-images-thumbs&n=13"
             alt="404"
           />
         </div>
