@@ -37,21 +37,26 @@ function Footer() {
               <a href="https://t.me/Gofur_0123" target="__blank">
                 <FaTelegramPlane className="aaa" color="white" size="3rem" />
               </a>
-            </div>      
+            </div>
           </div>
         </div>
         {/* ========================> Get information <================= */}
         <div className="inpuut">
-    
-      
-    {/* <label for="html">HTML</label>
-    <label className="name" htmlFor="name">Full name</label> */}
-      <input type="name" id="name" name="name" placeholder="Full name" />
-      <input type="email" id="email" name="email" placeholder="E-mail adress" />
-      <input type="text" id="company_name" name="company_name" placeholder="Copany Name" />
-      {/* <input type="text" id="massage" name="massage" placeholder="Type your massage here..." /> */}
-      <textarea id="massage">Type your massage here...</textarea>
-         <button className="Btn">SEND</button>
+          <input type="name" id="name" name="name" placeholder="Full name" />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="E-mail adress"
+          />
+          <input
+            type="text"
+            id="company_name"
+            name="company_name"
+            placeholder="Copany Name"
+          />
+          <textarea id="massage">Type your massage here...</textarea>
+          <button className="Btn">SEND</button>
         </div>
       </div>
     </>

@@ -1,9 +1,9 @@
 import Index from "./pages/Index";
 function App() {
   return (
- <>
-  <Index/>
- </>
+    <>
+      <Index />
+    </>
   );
 }
 

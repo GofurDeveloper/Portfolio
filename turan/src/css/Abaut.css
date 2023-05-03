@@ -1,9 +1,8 @@
 * {
   padding: 0;
   margin: 0;
-  /* box-sizing: border-box; */
 }
-.conteyner2{
+.conteyner2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +10,6 @@
   height: 100%;
   background-color: #0000009f;
   position: absolute;
-
 }
 .conteyner {
   position: relative;
@@ -42,13 +40,10 @@
 
 .about__us {
   height: 70vh;
-  /* background-color: red; */
   display: grid;
-  /* grid-template-columns: repeat(2, 1fr); */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .about__left {
-  /* background-color: rgb(5, 5, 17); */
   display: grid;
   align-items: center;
   justify-items: center;
@@ -56,7 +51,6 @@
 .medium {
   width: 45vw;
   height: 40vh;
-  /* background-color: green; */
 }
 .medium > h1 {
   text-transform: uppercase;
@@ -67,7 +61,6 @@
   line-height: 49px;
   display: flex;
   align-items: center;
-
   color: #000000;
 }
 .medium > p {
@@ -80,7 +73,6 @@
   color: #000000;
 }
 .about__right {
-  /* background-color: rgb(92, 92, 190); */
   display: grid;
   align-items: center;
   justify-items: center;
@@ -88,7 +80,6 @@
 .medium__right {
   width: 100%;
   height: 69vh;
-  /* background-color: #fffdfd; */
   display: grid;
   align-items: center;
   justify-items: center;
@@ -109,7 +100,7 @@
   height: 500px;
   color: red;
 }
-/* ======================================> Logistic start <========================================= */
+/* ======================================================> Logistic start <========================================= */
 .logistic__conteyner {
   margin-top: 20px;
 }
@@ -131,12 +122,9 @@
   left: 0px;
   top: 1299px;
   background: linear-gradient(35deg, #ccffff, #ffcccc);
-  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)); */
-   /* background-image: url("https://wallpapertag.com/wallpaper/full/e/f/a/996492-beautiful-red-neon-wallpaper-3440x1440.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
   margin-top: 60px;
   display: grid;
   justify-items: center;
@@ -149,8 +137,6 @@
   height: 150px;
   left: 250px;
   top: 1461px;
-  /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
-  background-color: #fffdfd; */
   border-radius: 10px;
   margin: 15vh 0 15vh 0;
 }
@@ -158,37 +144,9 @@
   width: 180px;
   height: 180px;
 }
-/* .card2 {
-  width: 150px;
-  height: 150px;
-  left: 569px;
-  top: 1496px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
-  background-color: #fffdfd;
-  border-radius: 10px;
-}
-.card3 {
-  width: 150px;
-  height: 150px;
-  left: 882px;
-  top: 1491px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
-  background-color: #fffdfd;
-  border-radius: 10px;
-}
+/* ==========================================================> Logistic end <=========================================== */
 
-.card4 {
-  width: 150px;
-  height: 150px;
-  left: 1190px;
-  top: 1491px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
-  background-color: #fffdfd;
-  border-radius: 10px;
-} */
-/* ======================================> Logistic end <=========================================== */
-
-/* ======================================> Our Team start <======================================== */
+/* ==========================================================> Our Team start <======================================== */
 .team {
   text-align: center;
   display: grid;
@@ -212,7 +170,6 @@
 .team__card__conteyner {
   width: 100%;
   height: 100%;
-  /* background-color: rgb(190, 190, 190); */
   display: grid;
   align-items: center;
   justify-items: center;
@@ -250,19 +207,14 @@
 .card {
   padding-top: 35px;
 }
-/* ======================================> Our Team end <======================================== */
-/* ======================================> Our Sevices start <======================================== */
+/* ===========================================================> Our Team end <======================================== */
+/* =========================================================> Our Sevices start <======================================== */
 
 .inception__sevices {
   width: 100%;
   height: 100%;
-  /* background-color: beige; */
   text-align: center;
 }
-/* .sevices {
-  position: relative;
-
-} */
 .sevices__conteyner {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -276,5 +228,3 @@
   text-align: center;
 }
 /* ======================================> Our Sevices end <======================================== */
-
-/* ======================================> Responsive start <====================================== */

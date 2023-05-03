@@ -1,86 +1,88 @@
 @media (min-width: 992px) and (max-width: 1500px) {
-    .show_open {
-        display: none;
-    }
-    .dropdown_menu{
-        display: none;
-    }
+  .show_open {
+    display: none;
+  }
+  .dropdown_menu {
+    display: none;
+  }
 }
-@media(max-width:1009px){
-    .header__links ,.header__right{
-        display: none;
-    }
-    .BTN{
-        display: block;
-    }
+@media (max-width: 1009px) {
+  .header__links,
+  .header__right {
+    display: none;
+  }
+  .BTN {
+    display: block;
+  }
 }
 
-@media(max-width: 992px){
-    .show_open {
-        display: none;
-    }
+@media (max-width: 992px) {
+  .show_open {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
-    .conteyner{
-        width: 100%;
-        justify-content: flex-end;
-    }
-    .medium {
-        width: 100%;
-        height: 100%;
-        margin-bottom: 30px;
-    }
-    .medium >h1{
-        align-items: center;
+  .conteyner {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .medium {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+  .medium > h1 {
+    align-items: center;
+  }
+  .medium__right {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .img__conteyner,
+  .vector {
+    width: 100%;
+  }
+  .logistic__conteyner {
+    margin-top: 80vh;
+  }
+  .logistic__text {
+    font-size: 14px;
+  }
+  .logistic {
+    width: 100%;
+  }
+  /* ======================================> Footer <================================ */
+  .footer__conteyner {
+    width: 113vw;
+    height: 120vh;
+  }
+  .contact {
+    width: 65%;
+    height: 55vh;
+  }
 
-    }
-    .medium__right{
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .img__conteyner , .vector{
-        width: 100%;
-       
-    }
-    .logistic__conteyner{
-        margin-top: 80vh;
-    }
-    .logistic__text{
-        font-size: 14px;
-    }
-    .logistic{
-        width: 100%;
-    }
-    /* ===============> Footer <================ */
-    .footer__conteyner{
-        width: 113vw;
-        height: 120vh;
-      }
-    .contact{
-        width: 65%;
-        height: 55vh;
-    }
-   
-    .inpuut{
-        width: 95%;
-        top: 400px;
-    }
-    .envelope_p{
-        padding-bottom: 5px;
-    }
-    #company_name , #email, #name, #massage{
-        width: 90%;
-        margin: 10px 10px;
-        padding: 10px;
-    }
-    .Btn{
-        width: 95%;
-        display: flex;
-        justify-items: center;
-        justify-content: center;
-        padding: 0.7rem;
-        margin-left: 0;
-    }
-    
+  .inpuut {
+    width: 95%;
+    top: 400px;
+  }
+  .envelope_p {
+    padding-bottom: 5px;
+  }
+  #company_name,
+  #email,
+  #name,
+  #massage {
+    width: 90%;
+    margin: 10px 10px;
+    padding: 10px;
+  }
+  .Btn {
+    width: 95%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding: 0.7rem;
+    margin-left: 0;
+  }
 }

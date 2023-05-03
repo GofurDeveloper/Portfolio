@@ -17,7 +17,7 @@
 }
 .header__logo {
   width: 40px;
-height: 40px;
+  height: 40px;
 }
 .header__logoImg {
   object-fit: contain;
@@ -74,7 +74,7 @@ height: 40px;
   height: 30px;
   display: none;
 }
-/* ========================>Dropdown_menu <========================= */
+/* =====================================================>Dropdown_menu <========================================= */
 
 .dropdown_menu {
   display: block;
