@@ -63,8 +63,9 @@
   }
 
   .inpuut {
-    width: 95%;
-    top: 400px;
+    left: 0;
+    width: 85%;
+    top: 65vh;
   }
   .envelope_p {
     padding-bottom: 5px;
